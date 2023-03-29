@@ -1,1 +1,3 @@
-# mv4hsvd
+# HybridSVD and MaxVol for feature selection. 
+HybridSVD is a hybrid algorithm for collaborative filtering that incorporates both user and item side information. This approach extends the PureSVD method by utilizing a generalized formulation of singular value decomposition. In this reseach, we propose a method for feature selection that depends on MaxVol algorithm. However, maxvol require a 'tall' matrix, so feature matrix should be compressed. To do that, we apply HybridSVD to perform a 'collaborative-aware' compression. 
+We propose an test two different hypothysis including collaborative information in compression of feature space. 
